@@ -1,0 +1,60 @@
+import React from 'react'
+import AboutMain from '../images/about/main.jpg'
+import Box1 from "../images/about/icon11.png";
+import Box2 from "../images/about/icon12.jpg";
+import Box3 from "../images/about/icon13.jpg";
+import PlanTrip from '../components/PlanTrip';
+import Footer from '../components/Footer';
+
+const About = () => {
+  return (
+    <>
+     <section className='about-page'>
+        <div className="container">
+            <div className="about-main">
+                <img className='about-main__img'
+                 src={AboutMain} alt="about_page" />
+                 <div className="about-main__text">
+                    <h3>About Company</h3>
+                 <h2>You start the engine and your adventure begins</h2>
+              <p>
+                Certain but she but shyness why cottage. Guy the put instrument
+                sir entreaties affronting. Pretended exquisite see cordially the
+                you. Weeks quiet do vexed or whose. Motionless if no to
+                affronting imprudence no precaution. My indulged as disposal
+                strongly attended.
+              </p>
+              <div className="about-main__text__icons">
+                <div className="about-main__text__icons__box">
+                  <img src={Box1} alt="car-icon" />
+                  <span>
+                    <h4>20</h4>
+                    <p>Car Types</p>
+                  </span>
+                </div>
+                <div className="about-main__text__icons__box">
+                  <img src={Box2} alt="car-icon" />
+                  <span>
+                    <h4>85</h4>
+                    <p>Rental Outlets</p>
+                  </span>
+                </div>
+                <div className="about-main__text__icons__box">
+                  <img src={Box3} alt="car-icon" className="last-fk" />
+                  <span>
+                    <h4>75</h4>
+                    <p>Repair Shop</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            </div>
+            <PlanTrip />
+        </div>
+    </section> 
+    <Footer />
+    </>
+  )
+}
+
+export default About
