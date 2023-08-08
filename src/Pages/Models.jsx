@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import CarImg from '../images/cars-big/audi-box.png'
 import CarImg from '../images/cars-big/Nissan.jpg'
-// import CarImg2 from '../images/cars-big/golf6-box.png'
 import CarImg2 from '../images/cars-big/bmw.jpg'
 import CarImg3 from "../images/cars-big/kia.jpg";
 import CarImg4 from "../images/cars-big/xuv500.jpg";
